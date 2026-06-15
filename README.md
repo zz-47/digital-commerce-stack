@@ -29,3 +29,4 @@ To initialize the local server and verify the application runtime, execute the p
 ```bash
 pip install -r requirements.txt
 python app.py
+
