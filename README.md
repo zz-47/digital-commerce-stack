@@ -1,15 +1,31 @@
-# Naturalis Pink Salt Co
+# Full-Stack Commerce Runtime
 
-## Overview
-Naturalis Pink Salt Co is an e-commerce platform that allows users to purchase premium Himalayan pink salt and related products. The repository includes backend API endpoints, a product catalog, and various utility functions for handling customer orders and processing payments.
+A production-grade web application and e-commerce infrastructure engineered to drive digital commerce operations. This workspace showcases a modular full-stack architecture, combining a clean front-end client interface with a robust, relational Python backend engine.
 
-## Dependencies
-- `Flask`: For building the backend API.
-- `SQLAlchemy`: For interacting with the database.
-- `stripe`: For handling payments.
-- `requests`: For sending HTTP requests to external APIs (e.g., payment gateways).
+---
 
-To install the dependencies, use the `requirements.txt` file:
+### ⚡ Key Architectural Features
+
+* **Relational Data Modeling:** Integrated database handling via Object-Relational Mapping (ORM) to manage structured product catalogs, user profiles, and order states seamlessly.
+* **Secure Transaction Pipelines:** Programmatic external API routing designed to interface with third-party payment gateways for secure financial token processing.
+* **RESTful State Handling:** A custom Flask routing layer built to process client-side operations, handle requests/responses, and manage core e-commerce business logic.
+
+---
+
+### 🛠️ Core Infrastructure Stack
+
+* **`Flask`** — Core WSGI web application framework and RESTful endpoint routing engine.
+* **`Flask-SQLAlchemy`** — Relational database orchestration layer and data schema management.
+* **`stripe`** — Secure payment infrastructure integration and transaction gateway handler.
+* **`requests`** — Synchronous server-to-server HTTP communication for external API verification.
+* **`HTML5` / `CSS3`** — Semantic front-end interface architecture optimized for clean client presentation.
+
+---
+
+### 🚀 Environment Initialization
+
+To initialize the local server and verify the application runtime, execute the package manager and run the main entry point:
 
 ```bash
 pip install -r requirements.txt
+python app.py
